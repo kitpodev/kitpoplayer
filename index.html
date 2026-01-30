@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Music Player (Плеер)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .app-name {
+            color: #4CAF50;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+        
+        .lang-switcher {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .lang-btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        .lang-btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+        
+        .lang-btn.active {
+            background: #2e7d32;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .content {
+            display: none;
+        }
+        
+        .content.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-left: 4px solid #4CAF50;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 40px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .date {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+        }
+        
+        .contact {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="app-name">Music Player (Плеер)</div>
+        </div>
+        
+        <div class="lang-switcher">
+            <button class="lang-btn active" onclick="switchLang('en')" id="btn-en">English</button>
+            <button class="lang-btn" onclick="switchLang('ru')" id="btn-ru">Русский</button>
+        </div>
+        
+        <!-- English Version -->
+        <div class="content active" id="content-en">
+            <p><strong>Last Updated:</strong> January 30, 2026</p>
+            
+            <h2>1. Introduction</h2>
+            <p>Welcome to Music Player (Плеер). Your privacy is extremely important to us. This privacy policy explains how our offline music player application handles your data. <strong>Our app works entirely on your device and does not collect, transmit, or share any personal information.</strong></p>
+            
+            <h2>2. Data Collection - We Collect NOTHING</h2>
+            <p><strong>Music Player is a completely offline application. We do NOT collect any data from you.</strong></p>
+            
+            <h3>2.1 No Personal Information</h3>
+            <p>We do not collect:</p>
+            <ul>
+                <li>❌ Your name, email, or phone number</li>
+                <li>❌ Your location data (GPS or network-based)</li>
+                <li>❌ Your contacts or address book</li>
+                <li>❌ Your device identifiers (IMEI, MAC address, etc.)</li>
+                <li>❌ Your browsing history or app usage statistics</li>
+                <li>❌ Any analytics or tracking data</li>
+            </ul>
+            
+            <h3>2.2 No Internet Connection Required</h3>
+            <p>Our application:</p>
+            <ul>
+                <li>✅ Works completely offline</li>
+                <li>✅ Does not require internet access</li>
+                <li>✅ Does not connect to any servers</li>
+                <li>✅ Does not transmit any data externally</li>
+            </ul>
+            
+            <h3>2.3 Local Data Storage Only</h3>
+            <p>All application data is stored locally on your device:</p>
+            <ul>
+                <li>User preferences (theme selection, equalizer settings)</li>
+                <li>Playlists you create</li>
+                <li>Favorite tracks list</li>
+                <li>Custom wallpaper (if you set one)</li>
+                <li>Album order preferences</li>
+            </ul>
+            <p><strong>This data never leaves your device and is deleted when you uninstall the app.</strong></p>
+            
+            <h2>3. Permissions Explained</h2>
+            <p>Our app requests the following permissions, which are used ONLY for the stated purposes:</p>
+            
+            <h3>3.1 Storage/Media Access Permissions</h3>
+            <ul>
+                <li><strong>READ_EXTERNAL_STORAGE (Android 12 and below):</strong> Required to read audio files from your device</li>
+                <li><strong>READ_MEDIA_AUDIO (Android 13+):</strong> Required to access music files on newer Android versions</li>
+            </ul>
+            <p><em>Purpose:</em> To display and play music files stored on your device. Without this permission, the app cannot function as a music player.</p>
+            
+            <h3>3.2 Foreground Service Permissions</h3>
+            <ul>
+                <li><strong>FOREGROUND_SERVICE:</strong> Allows music playback to continue when app is in background</li>
+                <li><strong>FOREGROUND_SERVICE_MEDIA_PLAYBACK:</strong> Specific permission for media playback service</li>
+            </ul>
+            <p><em>Purpose:</em> To keep playing music when you switch to other apps or lock your screen.</p>
+            
+            <h3>3.3 Notification Permission</h3>
+            <ul>
+                <li><strong>POST_NOTIFICATIONS:</strong> Required to display playback controls in notifications</li>
+            </ul>
+            <p><em>Purpose:</em> To show music controls (play, pause, next, previous) in your notification area for convenient access.</p>
+            
+            <h3>3.4 Wake Lock Permission</h3>
+            <ul>
+                <li><strong>WAKE_LOCK:</strong> Prevents device from sleeping during playback</li>
+            </ul>
+            <p><em>Purpose:</em> To ensure uninterrupted music playback.</p>
+            
+            <h3>3.5 Permissions We Explicitly BLOCK</h3>
+            <p>We actively block unnecessary permissions that some libraries might request:</p>
+            <ul>
+                <li>❌ ACCESS_NETWORK_STATE - We don't need internet connectivity information</li>
+                <li>❌ CHECK_LICENSE - We don't verify licenses online</li>
+            </ul>
+            
+            <h2>4. How We Use Permissions</h2>
+            <p>All permissions are used strictly for app functionality:</p>
+            <ul>
+                <li>✅ Reading audio files from your device storage</li>
+                <li>✅ Playing music in the background</li>
+                <li>✅ Displaying playback controls in notifications</li>
+                <li>✅ Saving your preferences (playlists, favorites, theme) locally</li>
+                <li>✅ Applying equalizer settings to audio playback</li>
+            </ul>
+            <p><strong>We do NOT use any permissions to collect, track, or transmit your data.</strong></p>
+            
+            <h2>5. Third-Party Services - NONE</h2>
+            <p>Our application does not use any third-party services, including:</p>
+            <ul>
+                <li>❌ No analytics services (Google Analytics, Firebase Analytics, etc.)</li>
+                <li>❌ No advertising networks</li>
+                <li>❌ No crash reporting services</li>
+                <li>❌ No social media integrations</li>
+                <li>❌ No cloud storage services</li>
+                <li>❌ No payment processors</li>
+            </ul>
+            <p><strong>Your data stays on your device, period.</strong></p>
+            
+            <h2>6. Data Sharing - NEVER</h2>
+            <p><strong>We do not share any data because we do not collect any data.</strong></p>
+            <p>There are no circumstances under which your information would be shared with:</p>
+            <ul>
+                <li>Third parties</li>
+                <li>Advertisers</li>
+                <li>Analytics companies</li>
+                <li>Government agencies (unless legally compelled, but we have nothing to share)</li>
+            </ul>
+            
+            <h2>7. Data Security</h2>
+            <p>Since all data is stored locally on your device:</p>
+            <ul>
+                <li>Your device's built-in security protects your data</li>
+                <li>No data transmission means no interception risk</li>
+                <li>No servers to hack or data breaches to worry about</li>
+            </ul>
+            <p><strong>Recommendation:</strong> Use your device's lock screen and encryption features to protect your data.</p>
+            
+            <h2>8. Data Retention and Deletion</h2>
+            <p>All application data is stored on your device and can be deleted by:</p>
+            <ul>
+                <li>Uninstalling the app (removes all app data automatically)</li>
+                <li>Clearing app data in Android Settings → Apps → Music Player → Storage → Clear Data</li>
+            </ul>
+            <p>No data remains on any external servers because none exists.</p>
+            
+            <h2>9. Children's Privacy</h2>
+            <p>Our app is safe for users of all ages, including children under 13:</p>
+            <ul>
+                <li>No personal information is collected</li>
+                <li>No online interactions</li>
+                <li>No advertising</li>
+                <li>No in-app purchases</li>
+            </ul>
+            <p>The app simply plays music files that are already on the device.</p>
+            
+            <h2>10. Your Rights</h2>
+            <p>Since we don't collect your data, you automatically have full control:</p>
+            <ul>
+                <li>✅ <strong>Access:</strong> All data is on your device, accessible anytime</li>
+                <li>✅ <strong>Deletion:</strong> Uninstall the app to remove all data</li>
+                <li>✅ <strong>Portability:</strong> Your music files remain yours, playable in any player</li>
+                <li>✅ <strong>No consent needed:</strong> We don't process personal data</li>
+            </ul>
+            
+            <h2>11. App Features Summary</h2>
+            <p>What our Music Player does:</p>
+            <ul>
+                <li>🎵 Plays audio files from your device storage</li>
+                <li>📱 Displays songs, albums, and playlists</li>
+                <li>⭐ Allows you to mark favorite tracks</li>
+                <li>📋 Create and manage playlists locally</li>
+                <li>🎨 Customize themes (Light, Dark, Transparent with custom wallpaper)</li>
+                <li>🎛️ Equalizer for audio customization</li>
+                <li>⏰ Sleep timer feature</li>
+                <li>🔁 Repeat and shuffle modes</li>
+                <li>📲 Mini player with playback controls</li>
+            </ul>
+            <p><strong>All features work offline without any data collection.</strong></p>
+            
+            <h2>12. Changes to This Privacy Policy</h2>
+            <p>If we ever add features that require data collection (which we don't plan to), we will:</p>
+            <ul>
+                <li>Update this privacy policy</li>
+                <li>Notify users through app update notes</li>
+                <li>Request explicit consent before collecting any data</li>
+            </ul>
+            <p>However, our commitment to privacy means we will always prioritize offline, privacy-first features.</p>
+            
+            <h2>13. Legal Compliance</h2>
+            <p>Our app complies with:</p>
+            <ul>
+                <li>✅ GDPR (General Data Protection Regulation) - No personal data processing</li>
+                <li>✅ CCPA (California Consumer Privacy Act) - No personal information collected</li>
+                <li>✅ COPPA (Children's Online Privacy Protection Act) - Safe for all ages</li>
+                <li>✅ Google Play Store policies</li>
+            </ul>
+            
+            <h2>14. Contact Us</h2>
+            <div class="contact">
+                <p>If you have any questions about this privacy policy, please contact us:</p>
+                <p><strong>Email:</strong> kitpodev@mail.ru</p>
+                <p><strong>Application Name:</strong> Music Player (Плеер)</p>
+                <p><strong>Package Name:</strong> com.example.playerbro</p>
+                <p>We will respond to your inquiry within 30 days.</p>
+            </div>
+            
+            <h2>15. Summary</h2>
+            <div class="contact" style="background: #e8f5e9;">
+                <p><strong>Bottom Line:</strong></p>
+                <ul style="margin-top: 10px;">
+                    <li>✅ <strong>Zero data collection</strong></li>
+                    <li>✅ <strong>Completely offline</strong></li>
+                    <li>✅ <strong>No internet required</strong></li>
+                    <li>✅ <strong>No ads or tracking</strong></li>
+                    <li>✅ <strong>100% private and secure</strong></li>
+                </ul>
+                <p style="margin-top: 15px;"><em>Your music, your device, your privacy.</em></p>
+            </div>
+            
+            <div class="date">
+                <p>© 2026 Music Player (Плеер). All rights reserved.</p>
+            </div>
+        </div>
+        
+        <!-- Russian Version -->
+        <div class="content" id="content-ru">
+            <p><strong>Последнее обновление:</strong> 30 января 2026 года</p>
+            
+            <h2>1. Введение</h2>
+            <p>Добро пожаловать в Music Player (Плеер). Ваша конфиденциальность чрезвычайно важна для нас. Настоящая политика конфиденциальности объясняет, как наш оффлайн музыкальный плеер обрабатывает ваши данные. <strong>Наше приложение работает полностью на вашем устройстве и не собирает, не передает и не передает никакой личной информации.</strong></p>
+            
+            <h2>2. Сбор данных - Мы НЕ собираем НИЧЕГО</h2>
+            <p><strong>Music Player - это полностью оффлайн приложение. Мы НЕ собираем никаких данных от вас.</strong></p>
+            
+            <h3>2.1 Никакой личной информации</h3>
+            <p>Мы не собираем:</p>
+            <ul>
+                <li>❌ Ваше имя, email или номер телефона</li>
+                <li>❌ Данные о вашем местоположении (GPS или на основе сети)</li>
+                <li>❌ Ваши контакты или адресную книгу</li>
+                <li>❌ Идентификаторы устройства (IMEI, MAC-адрес и т.д.)</li>
+                <li>❌ Историю браузера или статистику использования приложения</li>
+                <li>❌ Любую аналитику или данные отслеживания</li>
+            </ul>
+            
+            <h3>2.2 Интернет не требуется</h3>
+            <p>Наше приложение:</p>
+            <ul>
+                <li>✅ Работает полностью оффлайн</li>
+                <li>✅ Не требует доступа к интернету</li>
+                <li>✅ Не подключается ни к каким серверам</li>
+                <li>✅ Не передает никакие данные вовне</li>
+            </ul>
+            
+            <h3>2.3 Только локальное хранение данных</h3>
+            <p>Все данные приложения хранятся локально на вашем устройстве:</p>
+            <ul>
+                <li>Пользовательские предпочтения (выбор темы, настройки эквалайзера)</li>
+                <li>Созданные вами плейлисты</li>
+                <li>Список избранных треков</li>
+                <li>Пользовательские обои (если вы их установили)</li>
+                <li>Настройки порядка альбомов</li>
+            </ul>
+            <p><strong>Эти данные никогда не покидают ваше устройство и удаляются при удалении приложения.</strong></p>
+            
+            <h2>3. Объяснение разрешений</h2>
+            <p>Наше приложение запрашивает следующие разрешения, которые используются ТОЛЬКО для указанных целей:</p>
+            
+            <h3>3.1 Разрешения доступа к хранилищу/медиа</h3>
+            <ul>
+                <li><strong>READ_EXTERNAL_STORAGE (Android 12 и ниже):</strong> Требуется для чтения аудиофайлов с вашего устройства</li>
+                <li><strong>READ_MEDIA_AUDIO (Android 13+):</strong> Требуется для доступа к музыкальным файлам на новых версиях Android</li>
+            </ul>
+            <p><em>Цель:</em> Для отображения и воспроизведения музыкальных файлов, хранящихся на вашем устройстве. Без этого разрешения приложение не может функционировать как музыкальный плеер.</p>
+            
+            <h3>3.2 Разрешения для работы в фоне</h3>
+            <ul>
+                <li><strong>FOREGROUND_SERVICE:</strong> Позволяет воспроизводить музыку, когда приложение в фоне</li>
+                <li><strong>FOREGROUND_SERVICE_MEDIA_PLAYBACK:</strong> Специальное разрешение для службы воспроизведения медиа</li>
+            </ul>
+            <p><em>Цель:</em> Чтобы продолжать воспроизводить музыку, когда вы переключаетесь на другие приложения или блокируете экран.</p>
+            
+            <h3>3.3 Разрешение на уведомления</h3>
+            <ul>
+                <li><strong>POST_NOTIFICATIONS:</strong> Требуется для отображения элементов управления воспроизведением в уведомлениях</li>
+            </ul>
+            <p><em>Цель:</em> Для показа элементов управления музыкой (воспроизведение, пауза, следующий, предыдущий) в области уведомлений для удобного доступа.</p>
+            
+            <h3>3.4 Разрешение Wake Lock</h3>
+            <ul>
+                <li><strong>WAKE_LOCK:</strong> Предотвращает переход устройства в спящий режим во время воспроизведения</li>
+            </ul>
+            <p><em>Цель:</em> Для обеспечения непрерывного воспроизведения музыки.</p>
+            
+            <h3>3.5 Разрешения, которые мы явно БЛОКИРУЕМ</h3>
+            <p>Мы активно блокируем ненужные разрешения, которые могут запрашивать некоторые библиотеки:</p>
+            <ul>
+                <li>❌ ACCESS_NETWORK_STATE - Нам не нужна информация о подключении к интернету</li>
+                <li>❌ CHECK_LICENSE - Мы не проверяем лицензии онлайн</li>
+            </ul>
+            
+            <h2>4. Как мы используем разрешения</h2>
+            <p>Все разрешения используются строго для функциональности приложения:</p>
+            <ul>
+                <li>✅ Чтение аудиофайлов с хранилища вашего устройства</li>
+                <li>✅ Воспроизведение музыки в фоновом режиме</li>
+                <li>✅ Отображение элементов управления воспроизведением в уведомлениях</li>
+                <li>✅ Сохранение ваших предпочтений (плейлисты, избранное, тема) локально</li>
+                <li>✅ Применение настроек эквалайзера к воспроизведению аудио</li>
+            </ul>
+            <p><strong>Мы НЕ используем никакие разрешения для сбора, отслеживания или передачи ваших данных.</strong></p>
+            
+            <h2>5. Сторонние сервисы - НЕТ</h2>
+            <p>Наше приложение не использует никаких сторонних сервисов, включая:</p>
+            <ul>
+                <li>❌ Никаких сервисов аналитики (Google Analytics, Firebase Analytics и т.д.)</li>
+                <li>❌ Никаких рекламных сетей</li>
+                <li>❌ Никаких сервисов отчетов о сбоях</li>
+                <li>❌ Никаких интеграций с социальными сетями</li>
+                <li>❌ Никаких облачных сервисов хранения</li>
+                <li>❌ Никаких платежных систем</li>
+            </ul>
+            <p><strong>Ваши данные остаются на вашем устройстве, точка.</strong></p>
+            
+            <h2>6. Передача данных - НИКОГДА</h2>
+            <p><strong>Мы не передаем никакие данные, потому что мы не собираем никакие данные.</strong></p>
+            <p>Нет никаких обстоятельств, при которых ваша информация будет передана:</p>
+            <ul>
+                <li>Третьим лицам</li>
+                <li>Рекламодателям</li>
+                <li>Аналитическим компаниям</li>
+                <li>Государственным органам (даже если законодательно обязаны, но нам нечего передавать)</li>
+            </ul>
+            
+            <h2>7. Безопасность данных</h2>
+            <p>Поскольку все данные хранятся локально на вашем устройстве:</p>
+            <ul>
+                <li>Встроенная безопасность вашего устройства защищает ваши данные</li>
+                <li>Отсутствие передачи данных означает отсутствие риска перехвата</li>
+                <li>Нет серверов для взлома или утечек данных, о которых нужно беспокоиться</li>
+            </ul>
+            <p><strong>Рекомендация:</strong> Используйте блокировку экрана и шифрование вашего устройства для защиты данных.</p>
+            
+            <h2>8. Хранение и удаление данных</h2>
+            <p>Все данные приложения хранятся на вашем устройстве и могут быть удалены путем:</p>
+            <ul>
+                <li>Удаления приложения (автоматически удаляет все данные приложения)</li>
+                <li>Очистки данных приложения в Настройки Android → Приложения → Music Player → Хранилище → Очистить данные</li>
+            </ul>
+            <p>Никакие данные не остаются на внешних серверах, потому что их не существует.</p>
+            
+            <h2>9. Конфиденциальность детей</h2>
+            <p>Наше приложение безопасно для пользователей всех возрастов, включая детей младше 13 лет:</p>
+            <ul>
+                <li>Никакая личная информация не собирается</li>
+                <li>Никаких онлайн-взаимодействий</li>
+                <li>Никакой рекламы</li>
+                <li>Никаких встроенных покупок</li>
+            </ul>
+            <p>Приложение просто воспроизводит музыкальные файлы, которые уже находятся на устройстве.</p>
+            
+            <h2>10. Ваши права</h2>
+            <p>Поскольку мы не собираем ваши данные, вы автоматически имеете полный контроль:</p>
+            <ul>
+                <li>✅ <strong>Доступ:</strong> Все данные на вашем устройстве, доступны в любое время</li>
+                <li>✅ <strong>Удаление:</strong> Удалите приложение, чтобы удалить все данные</li>
+                <li>✅ <strong>Переносимость:</strong> Ваши музыкальные файлы остаются вашими, воспроизводимыми в любом плеере</li>
+                <li>✅ <strong>Согласие не требуется:</strong> Мы не обрабатываем персональные данные</li>
+            </ul>
+            
+            <h2>11. Обзор функций приложения</h2>
+            <p>Что делает наш Music Player:</p>
+            <ul>
+                <li>🎵 Воспроизводит аудиофайлы с хранилища вашего устройства</li>
+                <li>📱 Отображает песни, альбомы и плейлисты</li>
+                <li>⭐ Позволяет отмечать избранные треки</li>
+                <li>📋 Создавать и управлять плейлистами локально</li>
+                <li>🎨 Настраивать темы (Светлая, Темная, Прозрачная с пользовательскими обоями)</li>
+                <li>🎛️ Эквалайзер для настройки звука</li>
+                <li>⏰ Таймер сна</li>
+                <li>🔁 Режимы повтора и случайного воспроизведения</li>
+                <li>📲 Мини-плеер с элементами управления воспроизведением</li>
+            </ul>
+            <p><strong>Все функции работают оффлайн без какого-либо сбора данных.</strong></p>
+            
+            <h2>12. Изменения в политике конфиденциальности</h2>
+            <p>Если мы когда-либо добавим функции, требующие сбора данных (что мы не планируем), мы:</p>
+            <ul>
+                <li>Обновим эту политику конфиденциальности</li>
+                <li>Уведомим пользователей через примечания к обновлению приложения</li>
+                <li>Запросим явное согласие перед сбором любых данных</li>
+            </ul>
+            <p>Однако наша приверженность конфиденциальности означает, что мы всегда будем отдавать приоритет оффлайн функциям, ориентированным на конфиденциальность.</p>
+            
+            <h2>13. Соответствие законодательству</h2>
+            <p>Наше приложение соответствует:</p>
+            <ul>
+                <li>✅ GDPR (Общий регламент по защите данных) - Никакой обработки персональных данных</li>
+                <li>✅ CCPA (Калифорнийский закон о конфиденциальности потребителей) - Никакой личной информации не собирается</li>
+                <li>✅ COPPA (Закон о защите конфиденциальности детей в Интернете) - Безопасно для всех возрастов</li>
+                <li>✅ Политикам Google Play Store</li>
+                <li>✅ Российскому законодательству о персональных данных (152-ФЗ)</li>
+            </ul>
+            
+            <h2>14. Связаться с нами</h2>
+            <div class="contact">
+                <p>Если у вас есть вопросы об этой политике конфиденциальности, пожалуйста, свяжитесь с нами:</p>
+                <p><strong>Email:</strong> kitpodev@mail.ru</p>
+                <p><strong>Название приложения:</strong> Music Player (Плеер)</p>
+                <p><strong>Имя пакета:</strong> com.example.playerbro</p>
+                <p>Мы ответим на ваш запрос в течение 30 дней.</p>
+            </div>
+            
+            <h2>15. Резюме</h2>
+            <div class="contact" style="background: #e8f5e9;">
+                <p><strong>Итог:</strong></p>
+                <ul style="margin-top: 10px;">
+                    <li>✅ <strong>Нулевой сбор данных</strong></li>
+                    <li>✅ <strong>Полностью оффлайн</strong></li>
+                    <li>✅ <strong>Интернет не требуется</strong></li>
+                    <li>✅ <strong>Никакой рекламы или отслеживания</strong></li>
+                    <li>✅ <strong>100% приватно и безопасно</strong></li>
+                </ul>
+                <p style="margin-top: 15px;"><em>Ваша музыка, ваше устройство, ваша конфиденциальность.</em></p>
+            </div>
+            
+            <div class="date">
+                <p>© 2026 Music Player (Плеер). Все права защищены.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function switchLang(lang) {
+            // Hide all content
+            document.querySelectorAll('.content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected content and activate button
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+            
+            // Update page language attribute
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html>
